@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>html</h1>
+	<h2>form</h2>
+
+<form action="/action_page.php">
+	<fieldset>
+		<legend>회원가입</legend>
+
+	<label for="name">이름</label>
+	<input type="text" id="name" name="name"
+	value="정미애"/>
+	<label for="tel">전화번호</label>
+	<input type="text" id="tle" name="tel"
+	value="010-1234-5678"
+/>
+<label for="id">아이디</label> 
+<input type="text" id="id" name="id" 
+title="아이디" 
+placeholder="8자리 이상 특수문자 포함" maxlength="16" autofocus autocomplete="on">
+
+<hr>
+<label for="pw">비밀번호</label>
+<input type="text" id="pw" name="pw"required>
+<hr>
+<label for="cod">확인코드</label>
+<input type="text" id="cod"	name="cod">
+<hr>
+<label for="email">이메일</label>
+<input type="email" name="email" id="email" required>
+
+<hr>
+<label for="animals">좋아하는 동물</label>
+<select name="animals" id="animals">
+	<option value="cat">cat</option>
+	<option value="dog">dog</option>
+	<option value="fish">fish</option>
+</select>/#anmals
+<hr>
+
+
+<label for="text">남기고 싶은말</label>
+<textarea name="text" id="text" rows="10">
+</textarea>
+<hr>
+<button>버튼</button>
+<input type="button" value="버튼" />
+
+<hr>
+<input type="submit" value="회원가입">
+<hr>
+<input type="radio" name="gender" id="m">
+<label for="m">남자</label>
+<input type="radio" name="gender" id="f">
+<label for="f">여자</label>
+<hr>
+<input type="checkbox" name="cat" id="cat">
+<label for="cat">고양이</label>
+<input type="checkbox" name="dog" id="dog">
+<label for="dog">개</label>
+<input type="checkbox" name="fish" id="fish">
+<label for="fish">물고기</label>
+<hr>
+<input:Search>검색</input:Search>
+<label for="검색"></label>
+<hr>
+<label for="tel"></label>
+<input type="tel" name="tel" id="tel">
+
+
+	</fieldset>
+</form>
+</body>
+</html>
